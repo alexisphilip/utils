@@ -1,6 +1,8 @@
-npm -g install ^
+npm i ^
+docsify-cli
 eslint ^
 express ^
 jsdoc ^
 request ^
-sass
+sass ^
+-g

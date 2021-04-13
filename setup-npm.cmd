@@ -1,5 +1,5 @@
 npm i ^
-docsify-cli
+docsify-cli ^
 eslint ^
 express ^
 jsdoc ^

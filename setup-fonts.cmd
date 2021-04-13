@@ -17,5 +17,5 @@ mkdir %path%\google-fonts
 ::     regedit /s font.reg
 :: }
 
-del /s /q %path%\google-fonts.zip
+:: /s /q %path%\google-fonts.zip
 :: rmdir /s /q C:\Users\Alexis\Downloads\google-fonts

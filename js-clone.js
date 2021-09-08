@@ -5,13 +5,13 @@
  *      object(instance) - A class instance
  *      object - An object containing class instances.
  *      array - An array containing class instances.
- * @param {string} type - Precise a 'type' if you need to clone a list of class instances instead of one class instance.
+ * @param {string} [type=""] - Precise a 'type' if you need to clone a list of class instances instead of one class instance.
  *      "object" - If you need to clone an object containing class instances.
  *      "array" - If you need to clone an array containing class instances.
  * @returns {object|array} The cloned element(s).
  * @link https://gist.github.com/GeorgeGkas/36f7a7f9a9641c2115a11d58233ebed2
  */
- function clone(elements, type = "") {
+const clone = (elements, type = "") => {
     /* If you want to clone an object containing class instances, this
      is going to clone all of the class instances in the given object. */
     if (type === "object") {

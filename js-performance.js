@@ -7,9 +7,9 @@ let time = {};
 
 /**
  * Saves performance into an object.
- * @param {string} message
+ * @param {string} message - Message to be showed
  */
- function perf(message) {
+const perf = (message) => {
     time[Object.entries(time).length] = {
         message: message,
         timeAbs: performance.now()
@@ -19,7 +19,7 @@ let time = {};
 /**
  * Logs performance data into the browser's console.
  */
-function perfLog() {
+const perfLog = () => {
     // Calculates relative time.
     for (const key of Object.keys(time)) {
         if (key === "0") {

@@ -1,4 +1,9 @@
 /**
+ * @file Contains functions which help logging performance.
+ * @author Alexis Philip
+ */
+
+/**
  * IMPORTANT: declare this variable before each scripts
  * where you'll be using the 'perf' and 'perfLog' functions.
  * @type {object}
@@ -6,7 +11,8 @@
 let time = {};
 
 /**
- * Saves performance into an object.
+ * Saves the current time and message into an object.
+ * Each time this function is called, it will be logged into the console when `perfLog` is called.
  * @param {string} message - Message to be showed
  */
 const perf = (message) => {

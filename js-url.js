@@ -1,4 +1,9 @@
 /**
+ * @file Contains functions which help getting, setting and removing parameters from the URL.
+ * @author Alexis Philip
+ */
+
+/**
  * Gets an URL parameter value from the given key.
  * @param {string} key - URL parameter key to find.
  * @returns {string}

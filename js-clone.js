@@ -1,4 +1,9 @@
 /**
+ * @file Contains the `clone` function, which clones objects.
+ * @author Alexis Philip
+ */
+
+/**
  * Clones a class instance (or object|array of class instances)
  * with prototype and without reference, then returns its copy.
  * @param {object|array} elements -

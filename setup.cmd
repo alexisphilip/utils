@@ -51,13 +51,15 @@ notepad %home%"\.ssh\id_rsa.pub
 
 :: Downloads my main repositories
 cd %work%"\3d"
+git clone git@github.com:alexisphilip/masplit.git
+cd %work%"\design"
 git clone git@github.com:alexisphilip/curriculum-vitae.git
 git clone git@github.com:alexisphilip/curriculum-vitae-others.git
-mkdir %work%"\prog"
+cd %work%"\prog"
 git clone git@github.com:alexisphilip/alexisphilip.fr.git
-git clone git@github.com:alexisphilip/js-physics.git
 git clone git@github.com:alexisphilip/lighty-colorpicker.git
 git clone git@github.com:alexisphilip/linux-helpers.git
+git clone git@github.com:alexisphilip/utils.git
 
 :: Sets up DOSKEYs (aliases)
 :: doskey vps=ssh root@alexisphilip.fr

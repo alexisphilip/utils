@@ -15,18 +15,22 @@ curl ^
 wget ^
  ^
 php ^
-python3 ^
+python ^
 nodejs ^
  ^
 f.lux ^
 vlc ^
 everything ^
+ ^
+googlechrome ^
+firefox ^
+vscode ^
+sublimetext3 ^
+discord ^
 spotify ^
 slack ^
 filezilla ^
-sublimetext3 ^
-vscode ^
-discord ^
+adobereader ^
 %apps% ^
  ^
 -f -y

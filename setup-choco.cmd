@@ -25,6 +25,7 @@ everything ^
 googlechrome ^
 firefox ^
 vscode ^
+cmder ^
 sublimetext3 ^
 discord ^
 spotify ^

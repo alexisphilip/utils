@@ -1,5 +1,11 @@
 @echo off
 
+: UPGRADE
+: choco upgrade all -y
+
+: UNINSTALL (+ dependencies)
+: choco uninstall PACKAGE_NAME -x
+
 IF %setupType%=="pc" (
     set apps=steam origin uplay
 ) ELSE (
@@ -14,6 +20,7 @@ openssh ^
 7zip ^
 curl ^
 wget ^
+jq ^
  ^
 php ^
 python ^

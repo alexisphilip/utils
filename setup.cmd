@@ -13,27 +13,27 @@ echo.
 echo 1: PC setup
 echo 2: Work setup (no Steam, Origins, Uplay...)
 echo.
-set /p choice="Choice: "
+@REM set /p choice="Choice: "
 
-IF %choice%==1 (
-    set setupType="pc"
-) ELSE (
-    IF %choice%==2 (
-        set setupType="work"
-    ) ELSE (
-        rem /b is to end the script without closing cmd.exe if the current script was called from a script
-        exit /b
-    )
-)
+@REM IF %choice%==1 (
+@REM     set setupType="pc"
+@REM ) ELSE (
+@REM     IF %choice%==2 (
+@REM         set setupType="work"
+@REM     ) ELSE (
+@REM         rem /b is to end the script without closing cmd.exe if the current script was called from a script
+@REM         exit /b
+@REM     )
+@REM )
 
 @echo on
 
 :: Sets up chocolatey packages.
-setup-choco.cmd
+@REM setup-choco.cmd
 :: Sets up NPM packages.
-setup-npm.cmd
+@REM setup-npm.cmd
 :: Downloads fonts.
-setup-fonts.cmd
+@REM setup-fonts.cmd
 
 set root="C:\"
 set home=%USERPROFILE%

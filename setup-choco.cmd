@@ -9,6 +9,7 @@ IF %setupType%=="pc" (
 choco install ^
  ^
 git ^
+gh ^
 openssh ^
 7zip ^
 curl ^

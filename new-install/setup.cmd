@@ -95,7 +95,7 @@ mkdir %work%\code
 :: Creates SSH pub & private keys, known_hosts file and opens the pub key.
 ssh-keygen -f %home%\.ssh\id_rsa -t rsa -N ""
 copy /y NUL %home%"\.ssh\known_hosts" > NUL
-notepad %home%"\.ssh\id_rsa.pub
+notepad %home%\.ssh\id_rsa.pub
 
 
 
